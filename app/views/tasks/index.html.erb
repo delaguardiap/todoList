@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Tasks</h1>
+
+<%= render 'form' %>
+
+<% @tasks.each do |task| %>
+  <%= render task %>
+<%end%>
